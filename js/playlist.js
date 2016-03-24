@@ -18,7 +18,12 @@ Playlist.prototype.stop = function(){
 };
 
 Playlist.prototype.next = function() {
-
+  this.stop();
+  this.nowPlayingIndex++;
+  if(this.nowPlayingIndex === this.songs.length) {
+    this.nowPlayingIndex = 0;
+  }
+  this.play();
 };
 
 Playlist.prototype.renderInElement = function() {

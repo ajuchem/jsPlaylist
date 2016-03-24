@@ -10,3 +10,7 @@ playlist.add(hereComesTheSun);
 playlist.add(fieldsOfGold);
 playlist.add(beautifulDay);
 playlist.add(walkingOnSunshine);
+
+var playlistElement = document.getElementById("playlist");
+
+playlist.renderInElement(playlistElement);

@@ -23,6 +23,7 @@ Song.prototype.toHTML = function() {
   htmlString += ' - ';
   htmlString += this.artist;
   htmlString += '<span class="duration">';
+  htmlString += this.duration;
   htmlString += '</span></li>';
   return htmlString;
 };

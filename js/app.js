@@ -5,11 +5,14 @@ var fieldsOfGold = new Song("Fields of Gold", "Sting", "3:40");
 var beautifulDay = new Song("Beautiful Day", "U2", "4:08");
 var walkingOnSunshine = new Song("Walking on Sunshine", "Katrina and the Waves", "3:43");
 
+var toKillaMockingbird = new Movie("To Kill a Mockingbird", 1962, "2:10:00");
 
 playlist.add(hereComesTheSun);
 playlist.add(fieldsOfGold);
 playlist.add(beautifulDay);
 playlist.add(walkingOnSunshine);
+
+playlist.add(toKillaMockingbird);
 
 var playlistElement = document.getElementById("playlist");
 
